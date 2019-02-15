@@ -38,10 +38,6 @@ export default class Player extends Component {
             let id = item.idPlayer
             let nama = item.strPlayer
             let photo = item.strThumb
-            let photo2 = 'https://www.serumpi.com/wp-content/uploads/2017/03/138258-ronaldowati.jpg'
-            if (photo2 == false) {
-                photo = photo2
-            }
             let posisi = item.strPosition
             let deskripsi = item.strDescriptionEN
             let national = item.strNationality
